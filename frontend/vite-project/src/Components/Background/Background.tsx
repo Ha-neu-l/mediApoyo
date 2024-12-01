@@ -1,6 +1,6 @@
 import React from 'react';
 import './Background.css';
-import v from '../../assets/vid.mp4';
+import v from '../../assets/vid1.mp4';
 import f from '../../assets/f.jpg';
 import s from '../../assets/s.jpg';
 import t from '../../assets/t.jpg';

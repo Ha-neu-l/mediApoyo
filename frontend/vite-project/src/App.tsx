@@ -47,8 +47,8 @@ const App = () => {
             }
           />
           <Route path="/annotation" element={<Annotation />} />
-          <Route path="/emotion" element={<Emotion />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/Signin" element={<Emotion />} />
+          <Route path="/login" element={<Contact />} />
           <Route path="/api-data" element={<ApiData />} /> {/* Ensure this route is here */}
         </Routes>
       </div> 
