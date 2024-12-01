@@ -1,19 +1,18 @@
 import { useEffect, useState } from "react";
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Background from "./Components/Background/Background";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Annotation from "./pages/Annotation";
-import Emotion from "./pages/Signin";
-import Contact from "./pages/login";
+import Signin from "./pages/Signin";
+import Login from "./pages/login";
 import ApiData from "./pages/ApiData";
-import './App.css';
-
+import "./App.css";
 
 const App = () => {
   let heroData = [
-    { text1: "Your", text2: "health matters" },
+    { text1: "Your", text2: "..." },
     { text1: "Care ", text2: "starts here" },
     { text1: " Ask", text2: " learn, heal" },
   ];
@@ -47,11 +46,12 @@ const App = () => {
             }
           />
           <Route path="/annotation" element={<Annotation />} />
-          <Route path="/Signin" element={<Emotion />} />
-          <Route path="/login" element={<Contact />} />
-          <Route path="/api-data" element={<ApiData />} /> {/* Ensure this route is here */}
+          <Route path="/Signin" element={<Signin />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/api-data" element={<ApiData />} />{" "}
+          {/* Ensure this route is here */}
         </Routes>
-      </div> 
+      </div>
     </BrowserRouter>
   );
 };
