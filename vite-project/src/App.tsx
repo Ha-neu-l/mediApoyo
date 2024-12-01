@@ -5,8 +5,8 @@ import Background from "./Components/Background/Background";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Annotation from "./pages/Annotation";
-import Emotion from "./pages/Emotion";
-import Contact from "./pages/Contact";
+import Emotion from "./pages/Signin";
+import Contact from "./pages/login";
 import ApiData from "./pages/ApiData";
 import './App.css';
 

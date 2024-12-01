@@ -8,8 +8,8 @@ const Navbar = () => {
       <ul className="nav-menu">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/annotation">Chatbot</Link></li>
-        <li><Link to="/emotion">Sign in</Link></li>
-        <li className='nav-contact'><Link to="/contact">Sign up</Link></li>
+        <li><Link to="/Signin">Sign in</Link></li>
+        <li className='nav-contact'><Link to="/login">Sign up</Link></li>
       </ul>
     </div>
   );
